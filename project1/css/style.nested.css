@@ -1,0 +1,33 @@
+nav {
+  display: inline-block;
+  background-color: #eeeeee;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+nav a {
+  text-decoration: none;
+  color: #1D1B99;
+  font-family: Armata, Arial, sans-serif;
+  font-size: 24px;
+  margin-right: 36px; }
+
+nav a:hover {
+  color: #2d2dd8;
+  -webkit-transition: color .1s linear;
+  -moz-transition: color .1s linear;
+  -o-transition: color .1s linear;
+  -ms-transition: color .1s linear;
+  transition: color .1s linear; }
+
+nav img {
+  max-width: 64px;
+  max-height: 64px;
+  vertical-align: middle;
+  padding-top: 5px;
+  margin-bottom: -24px;
+  background-color: #eeeeee;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+body {
+  margin: 0; }
