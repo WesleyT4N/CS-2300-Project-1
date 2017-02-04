@@ -1,5 +1,5 @@
 <?php include("templates/header.php"); ?>
  <p>
-   home
+   about
  </p>
 <?php include("templates/footer.php"); ?>
