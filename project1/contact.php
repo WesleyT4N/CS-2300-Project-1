@@ -1,5 +1,9 @@
 <?php include("templates/header.php"); ?>
- <p>
-   contact
- </p>
+<div class="container">
+  <h1 class="title">CONTACT</h1>
+  <hr />
+  <p>
+
+  </p>
+</div>
 <?php include("templates/footer.php"); ?>

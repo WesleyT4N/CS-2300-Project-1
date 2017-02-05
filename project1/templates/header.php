@@ -5,12 +5,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/style.nested.css" />
-    <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.js"
-    integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
-    crossorigin="anonymous">
-    </script>
-    <script src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Armata|Roboto" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/104d9a8f78.js"></script>
+    <script src="../js/main.js"></script>
   </head>
   <body>
     <header>
