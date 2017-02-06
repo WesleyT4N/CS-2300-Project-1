@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  console.log("js working");
   $('.detailed-info').hide();
 
   $('#softwareShow').click(function() {
@@ -7,9 +6,12 @@ $(document).ready(function() {
   });
 
   $('#pianistShow').click(function() {
-    btnToggle("#pianistShow", "#pianistPane")
+    btnToggle("#pianistShow", "#pianistPane");
   });
 
+  $('#LPCShow').click(function() {
+    btnToggle("#LPCShow", "#LPCPane");
+  });
 });
 
 function btnToggle(btnName, paneName) {

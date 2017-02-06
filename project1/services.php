@@ -3,7 +3,7 @@
   <h1 class="title">SERVICES</h1>
   <hr />
   <div class="service">
-    <h2>Software Engineer <span><button type="button" id="softwareShow" class="btn show">SHOW DETAILS</button></span></h2>
+    <h2>Software Engineer <span><button type="button" id="softwareShow" class="btn">SHOW DETAILS</button></span></h2>
     <div class="detailed-info" id="softwarePane">
       <?php
       $images = array(
@@ -18,7 +18,7 @@
       ?>
       <br />
       <h3>Languages</h3>
-      
+
     </div>
   </div>
 

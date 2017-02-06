@@ -17,11 +17,11 @@ nav a {
 
 nav a:hover {
   color: #2d2dd8;
-  -webkit-transition: color .1s linear;
-  -moz-transition: color .1s linear;
-  -o-transition: color .1s linear;
-  -ms-transition: color .1s linear;
-  transition: color .1s linear; }
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  -ms-transition: color 0.1s linear;
+  transition: color 0.1s linear; }
 
 .logo {
   max-width: 64px;
@@ -43,7 +43,7 @@ body {
 .container {
   background-color: #eeeeee;
   font-family: Roboto, Arial, sans-serif;
-  padding: 6px 24px 12px 24px;
+  padding: 6px 24px 12px;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 96px;
@@ -66,9 +66,9 @@ body {
   text-decoration: none;
   display: inline;
   outline: none;
-  border: 0px solid black;
+  border: 0 solid black;
   height: 100%;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px;
   float: right;
   color: white;
   vertical-align: middle;
@@ -80,8 +80,7 @@ body {
   box-shadow: unset; }
 
 .detailed-info {
-  text-align: center;
-  padding-bottom: 10px; }
+  text-align: center; }
   .detailed-info .skill-logo {
     width: 64px;
     height: 64px;
@@ -92,8 +91,9 @@ body {
     vertical-align: middle; }
 
 footer {
+  clear: both;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   text-align: center;
   padding-bottom: 12px;
   height: 32px;
@@ -111,9 +111,57 @@ footer {
   max-width: 120px;
   max-height: 120px;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 5px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   margin-left: 10px;
   margin-bottom: 5px; }
 
 #bioText {
   font-size: 18px; }
+
+.social {
+  text-decoration: none;
+  color: black; }
+
+.social:hover {
+  color: #2d2dd8; }
+
+#name {
+  font-size: 14px;
+  vertical-align: middle; }
+
+#subject {
+  font-size: 16px; }
+
+textarea {
+  margin-bottom: -12px;
+  font-size: 14px; }
+
+#submit {
+  margin: 0 auto;
+  display: block; }
+
+#contact {
+  padding-bottom: 16px;
+  margin-bottom: 24px; }
+
+.project {
+  line-height: 36px;
+  vertical-align: middle;
+  color: black;
+  font-family: Armata, Arial, sans-serif; }
+
+.project-image {
+  max-width: 250px;
+  max-height: 250px;
+  border: 5px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+.image-container {
+  margin-top: 16px; }
+
+.info-container {
+  margin-left: 250px;
+  text-align: left;
+  max-width: 750px;
+  font-family: Roboto, Arial, sans-serif; }
