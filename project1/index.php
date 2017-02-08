@@ -1,9 +1,7 @@
-<?php include("templates/header.php"); ?>
+<?php include("./templates/header.php"); ?>
   <div class="container">
-    <h1 class="title">Welcome</h1>
+    <h1 class="title">WELCOME</h1>
     <hr />
-    <p>
-       Welcome to Wes Tan's personal portfolio page.
-    </p>
+    <h3>Welcome to Wes Tan's personal portfolio page.</h3>
   </div>
-<?php include("templates/footer.php"); ?>
+<?php include("./templates/footer.php"); ?>

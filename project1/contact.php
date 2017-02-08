@@ -36,8 +36,7 @@
     </h3>
     <h3>Message:
       <span id="messageError" style="color: red"></span>
-      <textarea rows="4" cols="48" name="message" style="width: 100%">
-      </textarea>
+      <textarea rows="4" cols="48" name="message" style="width: 100%"></textarea>
     </h3>
     <button id="submit" class="btn" type="submit" name="submit" style="float: none">
       SEND
@@ -65,9 +64,10 @@
     }
 
     if (isset($_POST['submit'])) {
-      $name = $_POST['name'];
+      $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
       $urgency = $_POST['urgency'];
-      $message = $_POST['message'];
+      $message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
+      $subject = $_POST['subject'];
       if (validateMessage($name, $message)) {
         $message = wordwrap($message, 80);
         $header = 'From: admin';

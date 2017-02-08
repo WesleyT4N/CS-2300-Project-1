@@ -7,7 +7,7 @@
     <div id="LPCPane" class="detailed-info">
       <div class="image-container">
         <!--Image of my own site-->
-        <img class="project-image" align="left" src="../img/lolplayercompare.png" />
+        <img class="project-image" alt="Screenshot of LoLPlayerCompare" src="./img/lolplayercompare.png" />
       </div>
       <div class="info-container">
         <h3 style="text-align: center">League of Legends Web App</h3>
